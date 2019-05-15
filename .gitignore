@@ -10,6 +10,9 @@
 *.userosscache
 *.sln.docstates
 
+# Ignore the CSV Files
+*.csv
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
