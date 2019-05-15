@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "LinkScraper", "LinkScraper\LinkScraper.pyproj", "{546A6BE7-EBC6-49A2-8035-2216ACA71E0F}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DataScraper", "DataScraper\DataScraper.pyproj", "{F7C61F36-F717-4B43-AFBA-ED04FE8FD65E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DebugData|Any CPU = DebugData|Any CPU
+		DebugLink|Any CPU = DebugLink|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{546A6BE7-EBC6-49A2-8035-2216ACA71E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{546A6BE7-EBC6-49A2-8035-2216ACA71E0F}.DebugData|Any CPU.ActiveCfg = DebugData|Any CPU
+		{546A6BE7-EBC6-49A2-8035-2216ACA71E0F}.DebugLink|Any CPU.ActiveCfg = DebugLink|Any CPU
+		{546A6BE7-EBC6-49A2-8035-2216ACA71E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C61F36-F717-4B43-AFBA-ED04FE8FD65E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C61F36-F717-4B43-AFBA-ED04FE8FD65E}.DebugData|Any CPU.ActiveCfg = DebugData|Any CPU
+		{F7C61F36-F717-4B43-AFBA-ED04FE8FD65E}.DebugLink|Any CPU.ActiveCfg = DebugData|Any CPU
+		{F7C61F36-F717-4B43-AFBA-ED04FE8FD65E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A64378B4-99A3-4BB6-9A16-C41A82FA7536}
+	EndGlobalSection
+EndGlobal
