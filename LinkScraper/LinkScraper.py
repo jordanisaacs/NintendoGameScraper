@@ -218,3 +218,5 @@ def load_more(driver):
             time.sleep(0.1)
         except Exception as e:
             break
+
+init()
