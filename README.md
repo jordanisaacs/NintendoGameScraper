@@ -6,8 +6,6 @@ This is my first webscraping project. The goal of it is to get data on games fro
 ## LinkScraper.py
 This file runs through the game guide on nintendo's website (nintendo.com/games/game-guide) to index links to each specific video game. This must be run before GameScraper.py as it generates a csv that contains the links that the gamescraper file uses.
 
-init() --- will begin the process of generating the links.
-
 ## ScrapeEveryLink.py
 This file runs through all links provided by LinkScraper.py and parses the website to obtain data about each game. It collects everything from the name of the game, to its categories, to whether there is DLC. It outputs a CSV file encoded in UTF-8. Data is structured as a pandas dataframe.
 
