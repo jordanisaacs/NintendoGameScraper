@@ -5,7 +5,7 @@
     <ProjectGuid>f7c61f36-f717-4b43-afba-ed04fe8fd65e</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>DataScraper.py</StartupFile>
+    <StartupFile>ScrapeEveryLink.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,7 +28,13 @@
     <OutputPath>bin\DebugLink\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="DataScraper.py" />
+    <Compile Include="DataParser.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScrapeEveryLink.py" />
+    <Compile Include="ScrapeNewLinks.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
