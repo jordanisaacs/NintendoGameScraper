@@ -14,3 +14,7 @@ This file checks the CSV file produced by ScrapeEveryLink.py and the CSV file wi
 
 ## DataParser.py
 This file is the backbones of the data scraper. It contains the functions that actually extract data from the webpage. Used in both the ScrapeEveryLink.py and ScrapeNewLinks.py 
+
+
+## Example File of Scraped Data
+https://docs.google.com/spreadsheets/d/1xLK53rug1qH0O4Iyxd8fHwWSwq-kDkPrGc6hQqraIWw/edit#gid=2075284628
